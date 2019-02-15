@@ -1,0 +1,9 @@
+{
+    "client": "pg",
+    "connection": {
+        "host": "127.0.0.1",
+        "user": "postgres",
+        "password": "SUP3RS3CR3T",
+        "database": "stream_dev"
+    }
+}
