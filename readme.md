@@ -24,4 +24,4 @@ English | [Русский](./docs/ru_RU/00-readme.md)
 ### License
 Licensed over MIT license. [Read license text](./docs/en_US/99-license.md).
 
-![](../images/footer.svg)
+![](./docs/images/footer.svg)
