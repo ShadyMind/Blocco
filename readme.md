@@ -3,7 +3,7 @@
 English | [Русский](./docs/ru_RU/00-readme.md)
 ### <font color="red">Summary</font>
 
-### index:
+### index
 1. [__Summary__](#summary)
 2. __Index__
 3. [__Concept__](#concept)

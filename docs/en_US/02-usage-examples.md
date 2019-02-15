@@ -1,6 +1,6 @@
 [ < Back to readme](../readme.md)
 
-# <img src="../images/logo-xs-w.png" style="vertical-align:middle" /> Usage & Examples
+# <img class="avatar" src="../images/logo-xs-w.png" style="vertical-align:middle" /> Usage & Examples
 Usage with knex and async/await syntax construction
 ```javascript
 const Settings = require('Blocco');

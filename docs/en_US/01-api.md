@@ -1,5 +1,5 @@
 [ < Back to readme](../readme.md)
-# <img src="../images/logo-xs-w.png" style="vertical-align:middle" /> API
+# <img class="avatar" src="../images/logo-xs-w.png" style="vertical-align:middle" /> API
 |       Entity     |   Type     |         Input       |      Output     |                 Description                 |
 |---|---|---|---|---|
 |`Bloco#load(void)`| `Function` |           —         | `Promise<void>` | Initialize search and build directory tree. |

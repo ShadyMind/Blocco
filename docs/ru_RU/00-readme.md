@@ -1,5 +1,6 @@
-# ![Blocco❜❜ - современный загрузчик конфигов для node.js](../images/logo-xl-w.png)
-### __Переводы:__
+![Blocco❜❜ - современный загрузчик конфигов для node.js](../images/banner.jpg)
+
+### __Переводы__
 [English](../../readme.md) | Русский
 ### <font color="red">Описание</font>
 
@@ -8,7 +9,7 @@
 2. __Указатель__
 3. [__Концепция__](#концепция)
 4. [__Документация__](#документация)
-5. [__License__](#license)
+5. [__Лицензия__](#license)
 
 ### <font color="red">Концепция</font>
 
@@ -23,3 +24,12 @@
 
 ### Лицензия
 Лицензированно соглашением MIT. [Читать соглашение...](./99-license.md)
+
+<table align="center">
+    <tr>
+        <td><font size="5">Blocco❜❜</td>
+        <td>created with</td>
+        <td><font color="#d46399" size="21">♥</font></td>
+        <td>from Russia.</td>
+    </tr>
+</table>
