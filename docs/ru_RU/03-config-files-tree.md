@@ -1,5 +1,5 @@
-[ < Back to readme](../readme.md)
-# ![](./logo-xs-w.png)
+[ < Back to readme](./00-readme.md)
+# <img src="../images/logo-xs-w.png" style="vertical-align:middle" /> Config files tree
 ```filetree
 ProjectRoot
  ├ settings

@@ -1,5 +1,5 @@
-[ < Back to readme](../readme.md)
-# ![](./logo-xs-w.png) License
+[↶ Back to readme](./00-readme.md)
+# <img src="../images/logo-xs-w.png" style="vertical-align:middle" /> License
 <pre>
 Copyright (c) 1998, 1999, 2000 Thai Open Source Software Center Ltd
  
