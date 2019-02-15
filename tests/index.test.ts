@@ -32,8 +32,7 @@ test('Should load configs (like .json, .js, .ts, .yaml etc.)', async t => {
     const db = await settings.get('db');
     const webpack = await settings.get('webpack');
     const auth = await settings.get('auth');
-
-    console.log(db);
+    
     t.pass();
 });
 
