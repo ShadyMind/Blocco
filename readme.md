@@ -1,7 +1,7 @@
-# ![Blocco❜❜ - modern config loader for node.js](./docs/images/logo-xl-w.png)
+![Blocco❜❜ - modern config loader for node.js](./docs/images/banner.jpg)
 ### __Translations__
 English | [Русский](./docs/ru_RU/00-readme.md)
-### <font color="red">Summary</font>
+### Summary
 
 ### index
 1. [__Summary__](#summary)
@@ -10,7 +10,7 @@ English | [Русский](./docs/ru_RU/00-readme.md)
 4. [__Links__](#links)
 5. [__License__](#license)
 
-### <font color="red">Concept</font>
+### Concept
 
 
 ### Documentation
@@ -19,7 +19,9 @@ English | [Русский](./docs/ru_RU/00-readme.md)
 
 ### Features Todo
 * Add watching functionality for changing configs
-* Add resolving and merging object structures to files and folder
+* Add resolving and merging object structures to files and folder;
 
 ### License
 Licensed over MIT license. [Read license text](./docs/en_US/99-license.md).
+
+![](../images/footer.svg)
