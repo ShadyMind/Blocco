@@ -18,11 +18,11 @@ test('Should load correct list of files', t => {
     t.deepEqual(
         settings.files.map(f => f.replace(settings.root, '')),
         [
-            '\\auth.js',
-            '\\db\\connection.js',
-            '\\db.json',
-            '\\webpack.yaml'
-        ]
+            '/auth.js',
+            '/db/connection.js',
+            '/db.json',
+            '/webpack.yaml'
+        ].map(p => p.replace(/[\\/]/g, path.sep))
     );
 });
 
