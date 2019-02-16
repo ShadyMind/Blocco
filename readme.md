@@ -22,7 +22,7 @@ English | [Русский](./docs/ru_RU/00-readme.md)
 ### Features Todo
 * [ ] Add watching functionality for changing configs
 * [ ] Add resolving and merging object structures to files and folder;
-
+* [ ] Add "weight" for B and L letters in logotype;
 ### License
 Licensed over MIT license. [Read license text](./docs/en_US/99-license.md).
 

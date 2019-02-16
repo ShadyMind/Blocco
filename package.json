@@ -1,7 +1,11 @@
 {
-  "name": "bloco",
-  "version": "0.0.9",
-  "description": "",
+  "name": "blocco",
+  "version": "0.0.10",
+  "author": "Boris Astanin <asta-boris+npm/blocco@yandex.ru>",
+  "keywords": [
+    "config"
+  ],
+  "description": "The modern config loader for Node.js",
   "main": "index.js",
   "scripts": {
     "start": "npm run clean && npm run test && npm run build && node ./dist",
@@ -9,9 +13,15 @@
     "clean": "rimraf ./dist",
     "test": "ava"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShadyMind/Blocco"
+  },
+  "bugs": "https://github.com/ShadyMind/Blocco/issues",
+  "license": "MIT",
+  "engines": {
+    "node": "^6.14.0 || ^8.10.0 || >=9.10.0"
+  },
   "devDependencies": {
     "@types/lodash": "^4.14.120",
     "@types/node": "^11.9.2",
