@@ -3,7 +3,7 @@
 <![CDATA[
   .text-container {
     text-anchor: middle;
-    font-family: Century gothic, sans-serif;
+    font-family: sans-serif;
     font-size: 145%;
   }
   .text-heart {
@@ -15,6 +15,7 @@
   .logo-text {
     font-weight: 900;
     text-transform: uppercase;
+    font-family: Century gothic, sans-serif;
   }
   .logo-glyph {
     /*transform: translate(330px, 5px);*/
