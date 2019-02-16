@@ -4,7 +4,7 @@
   .text-container {
     text-anchor: middle;
     font-family: sans-serif;
-    font-size: 145%;
+    font-size: 100%;
   }
   .text-heart {
     fill: #d46399;
