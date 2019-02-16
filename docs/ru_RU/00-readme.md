@@ -1,5 +1,5 @@
 ![Blocco❜❜ - современный загрузчик конфигов для node.js](../images/banner.jpg)
-
+[![Travis CI](https://api.travis-ci.org/ShadyMind/Blocco.svg?branch=master)](https://travis-ci.org/ShadyMind/Blocco)
 ### __Переводы__
 [English](../../readme.md) | Русский
 ### <font color="red">Описание</font>
