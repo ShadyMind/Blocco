@@ -35,7 +35,7 @@
   <text class="text-container" x="444" y="32">
     <tspan class="logo-text">Blocco</tspan><use xlink:href="#logoGlyph" /> created with <tspan class="text-heart">❤</tspan> from Russia!
   </text>
-  <use xlink:href="#logoGlyph" x="315" y="7" />
+  <use xlink:href="#logoGlyph" x="354" y="7" />
   <symbol class="logo-glyph" id="logoGlyph">
     <circle r="8" cx="10px" cy="10px" class="logo-glyph-foreground"></circle>
     <path d="M 6,14 14,14L" id="logoGlyphTextPath" fill="none" stroke="none"></path>
