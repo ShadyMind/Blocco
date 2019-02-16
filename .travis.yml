@@ -11,4 +11,8 @@ branches:
     - master
 
 script:
-    - "npm test"
+  - npm test
+  - npm install codecov -g
+  
+after_success:
+  - codecov
