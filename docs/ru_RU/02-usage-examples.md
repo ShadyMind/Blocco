@@ -3,20 +3,7 @@
 # <img class="avatar" src="../images/logo-xs-w.png" style="vertical-align:middle" /> Использование и примеры
 
 ### Примеры
-```filetree
-ProjectRoot
- ├ settings
- | ├ development
- | | ├db.json
- | | └app.js
- | ├ test
- | | ├db.json
- | | └app.js
- | └ production
- |   ├db.json
- |   └app.js
- └ index.js
-```
+![](../images/filetree-00.svg)
 
 `ProjectRoot/settings/**/db.json`
 ```json
