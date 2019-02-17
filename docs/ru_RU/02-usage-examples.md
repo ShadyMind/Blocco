@@ -5,37 +5,12 @@
 ### Примеры
 Пример структуры файлов конфигурации:
 
-![пример структуры файлов конфигурации](../images/filetree-00.svg)
+![пример структуры файлов конфигурации](./filetree-00.svg)
 
 | **Примечание**: | содержимое файлов, указанных ниже является примером, не обязательно использовать именно эти данные. |
 |--:|:--|
 
-Файл: `ProjectRoot/settings/**/db.json`
-```json
-{
-    "client": "pg",
-    "connection": {
-        "host": "127.0.0.1",
-        "user": "postgres",
-        "password": "SUP3RS3CR3T",
-        "database": "stream_dev"
-    }
-}
-```
-
-Файл: `ProjectRoot/settings/**/app.json`
-```json
-{
-    "port": 3000,
-    "autocorrectPort": true,
-    "loglevel": "info",
-    "featureFreeze": [
-        "authorization"
-    ]
-}
-```
-
-Файл: `ProjectRoot/index.js`
+#### Файл: `ProjectRoot/index.js`
 ```js
 const Koa = require('koa');
 const Settings = require('settings');
@@ -50,6 +25,31 @@ const settings = new Settings({
     await settings.load();
     app.listen(settings.get('app.port'));
 })();
+```
+
+#### Файл: `ProjectRoot/settings/**/app.json`
+```json
+{
+    "port": 3000,
+    "autocorrectPort": true,
+    "loglevel": "info",
+    "featureFreeze": [
+        "authorization"
+    ]
+}
+```
+
+#### Файл: `ProjectRoot/settings/**/db.json`
+```json
+{
+    "client": "pg",
+    "connection": {
+        "host": "127.0.0.1",
+        "user": "postgres",
+        "password": "SUP3RS3CR3T",
+        "database": "stream_dev"
+    }
+}
 ```
 
 ### Использование

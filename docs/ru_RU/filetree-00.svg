@@ -2,8 +2,8 @@
     xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink"
     version="1.1"
-    width="218"
-    height="275">
+    width="235"
+    height="308">
   <style>
 <![CDATA[
   .tree-item {
@@ -15,6 +15,7 @@
     }
 ]]>
   </style>
+  <!-- dir: root -->
   <g class="tree-item" style="transform:translate(1em,1em)">
     <use class="tree-item-icon" xlink:href="#folderIcon" />
     <text class="tree-item-text" x="2em" y=".9em">project_root</text>
@@ -44,10 +45,12 @@
     class="tree-item-line"
     d="M 0 0 L 0 17 L 10 17"
   />
+  <a xlink:href="./02-usage-examples.md" target="_top">
   <g class="tree-item" style="transform:translate(5.5em,7em)">
     <use class="tree-item-icon" xlink:href="#fileIcon" />
     <text class="tree-item-text" x="2em" y=".9em">app.json</text>
   </g>
+  </a>
   <path
     style="transform:translate(4.5em,6.5em)"
     class="tree-item-line"
@@ -86,6 +89,16 @@
     <text class="tree-item-text" x="2em" y=".9em">test</text>
   </g>
   <!-- /dir: config -->
+  <path
+    style="transform:translate(1.5em,2.5em)"
+    class="tree-item-line"
+    d="M 0 0 L 0 241 L 10 241"
+  />
+  <g class="tree-item" style="transform:translate(2.5em,17em)">
+    <use class="tree-item-icon" xlink:href="#fileIcon" />
+    <text class="tree-item-text" x="2em" y=".9em">index.js</text>
+  </g>
+  <!-- /dir: root -->
   <symbol id="fileIcon">
     <path style=" stroke:none;fill-rule:nonzero;fill:rgb(92.941176%,91.764706%,85.490196%);fill-opacity:1;" d="M 15.984375 4.34375 L 11.636719 0 L 2.015625 0 L 2.015625 18 L 15.984375 18 Z M 15.984375 4.34375 "/>
     <path style=" stroke:none;fill-rule:nonzero;fill:rgb(80.784314%,78.823529%,68.235294%);fill-opacity:1;" d="M 5.121094 7.136719 L 12.878906 7.136719 C 13.050781 7.136719 13.191406 7 13.191406 6.828125 C 13.191406 6.65625 13.050781 6.515625 12.878906 6.515625 L 5.121094 6.515625 C 4.949219 6.515625 4.808594 6.65625 4.808594 6.828125 C 4.808594 7 4.949219 7.136719 5.121094 7.136719 Z M 5.121094 7.136719 "/>
