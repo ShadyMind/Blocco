@@ -3,9 +3,14 @@
 # <img class="avatar" src="../images/logo-xs-w.png" style="vertical-align:middle" /> Использование и примеры
 
 ### Примеры
-![](../images/filetree-00.svg)
+Пример структуры файлов конфигурации:
 
-`ProjectRoot/settings/**/db.json`
+![пример структуры файлов конфигурации](../images/filetree-00.svg)
+|||
+|--:|:--|
+| **Примечание**: | содержимое файлов является примером, не обязательно использовать именно эти данные |
+
+Файл: `ProjectRoot/settings/**/db.json`
 ```json
 {
     "client": "pg",
@@ -18,7 +23,7 @@
 }
 ```
 
-`ProjectRoot/settings/**/app.json`
+Файл: `ProjectRoot/settings/**/app.json`
 ```json
 {
     "port": 3000,
@@ -30,7 +35,7 @@
 }
 ```
 
-`ProjectRoot/index.js`
+Файл: `ProjectRoot/index.js`
 ```js
 const Koa = require('koa');
 const Settings = require('settings');
