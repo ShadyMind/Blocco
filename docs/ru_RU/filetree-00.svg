@@ -45,21 +45,23 @@
     class="tree-item-line"
     d="M 0 0 L 0 17 L 10 17"
   />
-  <a xlink:href="./02-usage-examples.md" target="_top">
-  <g class="tree-item" style="transform:translate(5.5em,7em)">
-    <use class="tree-item-icon" xlink:href="#fileIcon" />
-    <text class="tree-item-text" x="2em" y=".9em">app.json</text>
-  </g>
+  <a xlink:href="./02-usage-examples.mduser-content-файл-projectrootsettingsappjson" target="_top">
+    <g class="tree-item" style="transform:translate(5.5em,7em)">
+      <use class="tree-item-icon" xlink:href="#fileIcon" />
+      <text class="tree-item-text" x="2em" y=".9em">app.json</text>
+    </g>
   </a>
   <path
     style="transform:translate(4.5em,6.5em)"
     class="tree-item-line"
     d="M 0 0 L 0 50 L 10 50"
   />
-  <g class="tree-item" style="transform:translate(5.5em,9em)">
-    <use class="tree-item-icon" xlink:href="#fileIcon" />
-    <text class="tree-item-text" x="2em" y=".9em">db.json</text>
-  </g>
+  <a xlink:href="./02-usage-examples.md#user-content-файл-projectrootsettingsdbjson" target="_top">
+    <g class="tree-item" style="transform:translate(5.5em,9em)">
+      <use class="tree-item-icon" xlink:href="#fileIcon" />
+      <text class="tree-item-text" x="2em" y=".9em">db.json</text>
+    </g>
+  </a>
   <path
     style="transform:translate(4.5em,6.5em)"
     class="tree-item-line"
@@ -93,11 +95,13 @@
     style="transform:translate(1.5em,2.5em)"
     class="tree-item-line"
     d="M 0 0 L 0 241 L 10 241"
-  />
-  <g class="tree-item" style="transform:translate(2.5em,17em)">
-    <use class="tree-item-icon" xlink:href="#fileIcon" />
-    <text class="tree-item-text" x="2em" y=".9em">index.js</text>
-  </g>
+  />  
+  <a xlink:href="./02-usage-examples.md#user-content-файл-projectrootindexjs" target="_top">
+    <g class="tree-item" style="transform:translate(2.5em,17em)">
+      <use class="tree-item-icon" xlink:href="#fileIcon" />
+      <text class="tree-item-text" x="2em" y=".9em">index.js</text>
+    </g>
+  </a>
   <!-- /dir: root -->
   <symbol id="fileIcon">
     <path style=" stroke:none;fill-rule:nonzero;fill:rgb(92.941176%,91.764706%,85.490196%);fill-opacity:1;" d="M 15.984375 4.34375 L 11.636719 0 L 2.015625 0 L 2.015625 18 L 15.984375 18 Z M 15.984375 4.34375 "/>
