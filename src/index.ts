@@ -1,6 +1,6 @@
 import path from 'path';
 import fs, { Stats } from 'fs';
-import { map, flattenDeep, forIn, keys, filter, get, set, has, unset } from 'lodash';
+import { map, flattenDeep, forIn, keys, filter, get, set, has, unset } from 'lodash-core';
 import { ENV_MAPPINGS, BLOCO_CONFIG_DEFAULTS, IBlocoLoaderConfig } from './constants';
 
 let _env = process.env.CONFIG_PATH || 'development';

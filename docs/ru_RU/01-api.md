@@ -12,3 +12,17 @@
 |`Bloco#set`       | `Function` | `route {String}`, `value {any}` | `any` | Записывает в представление дерева конфига свойство, не меняя его в файловой системе. Возвращает записанное свойство. |
 |`Bloco#unset`     | `Function` | `route {String}` | `boolean` | Удаляет свойство из представления, не меняя его в фаловой системе. Возвращает `true`, если свойство удалено, иначе `false`. |
 |`Bloco::loaders`  | `Object`   |           —         |        —        | Объект, из которого берутся парсеры для файлов, таких как `js`, `ts`, `json`, `yaml` и т.д. По умолчанию установленны `js` и `json`. |
+
+
+<table border="0" width="888">
+    <tr>
+        <td width="296" align="left">        
+        </td>
+        <td width="296" align="center">
+            <a href="./00-readme.md">Назад к основной странице</a>
+        </td>
+        <td width="296" align="right">
+            <a href="./02-usage-examples.md">След.: Использование и примеры ></a>
+        </td>
+    </tr>
+</table>
