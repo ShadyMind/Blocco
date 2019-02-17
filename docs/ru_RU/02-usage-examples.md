@@ -3,7 +3,7 @@
 # <img class="avatar" src="../images/logo-xs-w.png" style="vertical-align:middle" /> Использование и примеры
 
 ### Примеры
-![](../images/filetree-00.svg)
+![](../images/filetree)
 
 `ProjectRoot/settings/**/db.json`
 ```json
