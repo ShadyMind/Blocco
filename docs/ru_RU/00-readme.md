@@ -1,8 +1,9 @@
 ![Blocco❜❜ - современный загрузчик конфигов для node.js](../images/banner.jpg)
+
 [![Travis CI](https://api.travis-ci.org/ShadyMind/Blocco.svg?branch=master)](https://travis-ci.org/ShadyMind/Blocco)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Feslint%2Feslint.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Feslint%2Feslint?ref=badge_shield)
-
 ![](https://badgen.net/npm/dm/blocco)
+
 #### __Переводы__
 [English](../../readme.md) | Русский
 ### Описание
