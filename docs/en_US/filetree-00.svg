@@ -1,0 +1,116 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    version="1.1"
+    width="235"
+    height="308">
+  <style>
+<![CDATA[
+  .tree-item {
+    font-family: sans-serif;
+    }
+    .tree-item-line {
+        fill: none;
+        stroke: #a9a9a9;
+    }
+]]>
+  </style>
+  <!-- dir: root -->
+  <g class="tree-item" style="transform:translate(1em,1em)">
+    <use class="tree-item-icon" xlink:href="#folderIcon" />
+    <text class="tree-item-text" x="2em" y=".9em">project_root</text>
+  </g>
+  <!-- dir: config-->
+  <path
+    style="transform:translate(1.5em,2.5em)"
+    class="tree-item-line"
+    d="M 0 0 L 0 17 L 10 17"
+  />
+  <g class="tree-item" style="transform:translate(2.5em,3em)">
+    <use class="tree-item-icon" xlink:href="#folderIcon" />
+    <text class="tree-item-text" x="2em" y=".9em">settings</text>
+  </g>
+  <!-- dir: development-->
+  <path
+    style="transform:translate(3em,4.5em)"
+    class="tree-item-line"
+    d="M 0 0 L 0 17 L 10 17"
+  />
+  <g class="tree-item" style="transform:translate(4em,5em)">
+    <use class="tree-item-icon" xlink:href="#folderIcon" />
+    <text class="tree-item-text" x="2em" y=".9em">development</text>
+  </g>
+  <path
+    style="transform:translate(4.5em,6.5em)"
+    class="tree-item-line"
+    d="M 0 0 L 0 17 L 10 17"
+  />
+  <g class="tree-item" style="transform:translate(5.5em,7em)">
+    <use class="tree-item-icon" xlink:href="#fileIcon" />
+    <text class="tree-item-text" x="2em" y=".9em">app.json</text>
+  </g>
+  <path
+    style="transform:translate(4.5em,6.5em)"
+    class="tree-item-line"
+    d="M 0 0 L 0 50 L 10 50"
+  />
+  <g class="tree-item" style="transform:translate(5.5em,9em)">
+    <use class="tree-item-icon" xlink:href="#fileIcon" />
+    <text class="tree-item-text" x="2em" y=".9em">db.json</text>
+  </g>
+  <path
+    style="transform:translate(4.5em,6.5em)"
+    class="tree-item-line"
+    d="M 0 0 L 0 83 L 10 83"
+  />
+  <g class="tree-item" style="transform:translate(5.5em,11em)">
+    <use class="tree-item-icon" xlink:href="#fileIcon" />
+    <text class="tree-item-text" x="2em" y=".9em">webpack.yml</text>
+  </g>
+  <!-- /dir: development-->
+  <path
+    style="transform:translate(3em,4.5em)"
+    class="tree-item-line"
+    d="M 0 0 L 0 145 L 10 145"
+  />
+  <g class="tree-item" style="transform:translate(4em,13em)">
+    <use class="tree-item-icon" xlink:href="#folderIcon" />
+    <text class="tree-item-text" x="2em" y=".9em">production</text>
+  </g>
+  <path
+    style="transform:translate(3em,4.5em)"
+    class="tree-item-line"
+    d="M 0 0 L 0 178 L 10 178"
+  />
+  <g class="tree-item" style="transform:translate(4em,15em)">
+    <use class="tree-item-icon" xlink:href="#folderIcon" />
+    <text class="tree-item-text" x="2em" y=".9em">test</text>
+  </g>
+  <!-- /dir: config -->
+  <path
+    style="transform:translate(1.5em,2.5em)"
+    class="tree-item-line"
+    d="M 0 0 L 0 241 L 10 241"
+  />
+  <g class="tree-item" style="transform:translate(2.5em,17em)">
+    <use class="tree-item-icon" xlink:href="#fileIcon" />
+    <text class="tree-item-text" x="2em" y=".9em">index.js</text>
+  </g>
+  <!-- /dir: root -->
+  <symbol id="fileIcon">
+    <path style=" stroke:none;fill-rule:nonzero;fill:rgb(92.941176%,91.764706%,85.490196%);fill-opacity:1;" d="M 15.984375 4.34375 L 11.636719 0 L 2.015625 0 L 2.015625 18 L 15.984375 18 Z M 15.984375 4.34375 "/>
+    <path style=" stroke:none;fill-rule:nonzero;fill:rgb(80.784314%,78.823529%,68.235294%);fill-opacity:1;" d="M 5.121094 7.136719 L 12.878906 7.136719 C 13.050781 7.136719 13.191406 7 13.191406 6.828125 C 13.191406 6.65625 13.050781 6.515625 12.878906 6.515625 L 5.121094 6.515625 C 4.949219 6.515625 4.808594 6.65625 4.808594 6.828125 C 4.808594 7 4.949219 7.136719 5.121094 7.136719 Z M 5.121094 7.136719 "/>
+    <path style=" stroke:none;fill-rule:nonzero;fill:rgb(80.784314%,78.823529%,68.235294%);fill-opacity:1;" d="M 5.121094 4.65625 L 8.222656 4.65625 C 8.394531 4.65625 8.535156 4.515625 8.535156 4.34375 C 8.535156 4.171875 8.394531 4.035156 8.222656 4.035156 L 5.121094 4.035156 C 4.949219 4.035156 4.808594 4.171875 4.808594 4.34375 C 4.808594 4.515625 4.949219 4.65625 5.121094 4.65625 Z M 5.121094 4.65625 "/>
+    <path style=" stroke:none;fill-rule:nonzero;fill:rgb(80.784314%,78.823529%,68.235294%);fill-opacity:1;" d="M 12.878906 9 L 5.121094 9 C 4.949219 9 4.808594 9.140625 4.808594 9.308594 C 4.808594 9.480469 4.949219 9.621094 5.121094 9.621094 L 12.878906 9.621094 C 13.050781 9.621094 13.191406 9.480469 13.191406 9.308594 C 13.191406 9.140625 13.050781 9 12.878906 9 Z M 12.878906 9 "/>
+    <path style=" stroke:none;fill-rule:nonzero;fill:rgb(80.784314%,78.823529%,68.235294%);fill-opacity:1;" d="M 12.878906 11.484375 L 5.121094 11.484375 C 4.949219 11.484375 4.808594 11.621094 4.808594 11.792969 C 4.808594 11.964844 4.949219 12.101562 5.121094 12.101562 L 12.878906 12.101562 C 13.050781 12.101562 13.191406 11.964844 13.191406 11.792969 C 13.191406 11.621094 13.050781 11.484375 12.878906 11.484375 Z M 12.878906 11.484375 "/>
+    <path style=" stroke:none;fill-rule:nonzero;fill:rgb(80.784314%,78.823529%,68.235294%);fill-opacity:1;" d="M 12.878906 13.964844 L 5.121094 13.964844 C 4.949219 13.964844 4.808594 14.105469 4.808594 14.277344 C 4.808594 14.449219 4.949219 14.585938 5.121094 14.585938 L 12.878906 14.585938 C 13.050781 14.585938 13.191406 14.449219 13.191406 14.277344 C 13.191406 14.105469 13.050781 13.964844 12.878906 13.964844 Z M 12.878906 13.964844 "/>
+    <path style=" stroke:none;fill-rule:nonzero;fill:rgb(80.784314%,78.823529%,68.235294%);fill-opacity:1;" d="M 11.636719 0 L 11.636719 4.34375 L 15.984375 4.34375 Z M 11.636719 0 "/>
+  </symbol>
+  <symbol id="folderIcon">
+    <path style="stroke:none;fill-rule:nonzero;fill:rgb(93.72549%,80.784314%,29.019608%);fill-opacity:1;" d="M 17.375 16.914062 L 0.625 16.914062 C 0.28125 16.914062 0 16.632812 0 16.289062 L 0 6.363281 L 18 6.363281 L 18 16.289062 C 18 16.632812 17.71875 16.914062 17.375 16.914062 Z M 17.375 16.914062 "/>
+    <path style="stroke:none;fill-rule:nonzero;fill:rgb(92.156863%,72.941176%,8.627451%);fill-opacity:1;" d="M 8.074219 3.570312 L 8.074219 1.710938 C 8.074219 1.367188 7.792969 1.085938 7.449219 1.085938 L 0.625 1.085938 C 0.28125 1.085938 0 1.367188 0 1.710938 L 0 6.363281 L 18 6.363281 L 18 4.195312 C 18 3.847656 17.71875 3.570312 17.375 3.570312 Z M 8.074219 3.570312 "/>
+    <path style="stroke:none;fill-rule:nonzero;fill:rgb(92.156863%,47.45098%,21.568627%);fill-opacity:1;" d="M 5.585938 10.085938 L 9.929688 10.085938 C 10.101562 10.085938 10.242188 9.949219 10.242188 9.777344 C 10.242188 9.605469 10.101562 9.464844 9.929688 9.464844 L 5.585938 9.464844 C 5.414062 9.464844 5.277344 9.605469 5.277344 9.777344 C 5.277344 9.949219 5.414062 10.085938 5.585938 10.085938 Z M 5.585938 10.085938 "/>
+    <path style="stroke:none;fill-rule:nonzero;fill:rgb(92.156863%,47.45098%,21.568627%);fill-opacity:1;" d="M 5.585938 11.949219 L 12.414062 11.949219 C 12.585938 11.949219 12.722656 11.808594 12.722656 11.636719 C 12.722656 11.464844 12.585938 11.328125 12.414062 11.328125 L 5.585938 11.328125 C 5.414062 11.328125 5.277344 11.464844 5.277344 11.636719 C 5.277344 11.808594 5.414062 11.949219 5.585938 11.949219 Z M 5.585938 11.949219 "/>
+    <path style="stroke:none;fill-rule:nonzero;fill:rgb(92.156863%,47.45098%,21.568627%);fill-opacity:1;" d="M 12.414062 13.191406 L 5.585938 13.191406 C 5.414062 13.191406 5.277344 13.328125 5.277344 13.5 C 5.277344 13.671875 5.414062 13.808594 5.585938 13.808594 L 12.414062 13.808594 C 12.585938 13.808594 12.722656 13.671875 12.722656 13.5 C 12.722656 13.328125 12.585938 13.191406 12.414062 13.191406 Z M 12.414062 13.191406 "/>
+  </symbol>
+</svg>

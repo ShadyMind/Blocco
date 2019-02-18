@@ -1,22 +1,28 @@
 ![Blocco❜❜ - современный загрузчик конфигов для node.js](../images/banner.jpg)
 [![Travis CI](https://api.travis-ci.org/ShadyMind/Blocco.svg?branch=master)](https://travis-ci.org/ShadyMind/Blocco)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Feslint%2Feslint.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Feslint%2Feslint?ref=badge_shield)
+
 ![](https://badgen.net/npm/dm/blocco)
 #### __Переводы__
 [English](../../readme.md) | Русский
-### <font color="red">Описание</font>
+### Описание
+Будет позднее
 
 ### Указатель
-1. [__Описание__](#описание)
-2. __Указатель__
-3. [__Концепция__](#концепция)
-4. [__Документация__](#документация)
-5. [__Лицензия__](#license)
+- [__Описание__](#описание)
+- __Указатель__
+- [__Концепция__](#концепция)
+- [__Документация__](#документация)
+- [__Нереализованные функциональности__](#нереализованные-функциональности)
+- [__Лицензия__](#лицензия)
 
-### <font color="red">Концепция</font>
+
+
+### Концепция
+Будет позднее
 
 ### Документация
-* [API  (Программный интерфейс)](./01-api.md)
+* [API (Программный интерфейс)](./01-api.md)
 * [Использование и примеры](./02-usage-examples.md)
 
 ### Нереализованные функциональности
@@ -27,4 +33,4 @@
 ### Лицензия
 Лицензированно соглашением MIT. [Читать соглашение...](./51-license.md)
 
-![](../images/footer.svg)
+![](./footer.svg)

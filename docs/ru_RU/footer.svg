@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="888" height="52">
+  <style>
+<![CDATA[
+  .text-container {
+    text-anchor: middle;
+    font-family: sans-serif;
+    font-size: 100%;
+  }
+  .text-heart {
+    fill: #d46399;
+    font-size: 40px;
+    alignment-baseline: middle;
+    transform: translate(0, 20px);
+  }
+  .logo-text {
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: Century gothic, sans-serif;
+  }
+  .logo-glyph {
+    /*transform: translate(330px, 5px);*/
+  }
+  .logo-glyph-foreground {
+    color: white;
+    fill: url(#glyph);
+  }
+  .logo-glyph-text {
+    text-anchor: center;
+    alignment-baseline: middle;
+    fill: #ececec;
+    font-size: 80%;
+  }
+]]>
+  </style>
+  <text class="text-container" x="444" y="32">
+    <tspan class="logo-text">Blocco</tspan><use xlink:href="#logoGlyph" /> создан с <tspan class="text-heart">❤</tspan> из России!
+  </text>
+  <use xlink:href="#logoGlyph" x="372" y="7" />
+  <symbol class="logo-glyph" id="logoGlyph">
+    <circle r="8" cx="10px" cy="10px" class="logo-glyph-foreground"></circle>
+    <path d="M 6,14 14,14L" id="logoGlyphTextPath" fill="none" stroke="none"></path>
+    <text>
+        <textPath class="logo-glyph-text" xlink:href="#logoGlyphTextPath">❜❜</textPath>
+    </text>
+  </symbol>
+
+  <linearGradient id="glyph" y1="0%" x1="50%" y2="100%" x2="50%">
+    <stop offset="0%" stop-color="#00f0ff"/>
+    <stop offset="100%" stop-color="#0024ff"/>
+  </linearGradient>
+</svg>

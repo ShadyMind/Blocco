@@ -1,6 +1,6 @@
 [ < Назад к основной странице](./00-readme.md)
 
-# <img class="avatar" src="../images/logo-xs-w.png" style="vertical-align:middle" /> Использование и примеры
+# Использование и примеры
 
 ### Примеры
 Пример структуры файлов конфигурации:
@@ -81,3 +81,5 @@ const settings = new Settings({
         </td>
     </tr>
 </table>
+
+![](./footer.svg)
