@@ -1,6 +1,19 @@
 [ < Back to readme](../readme.md)
 # API
 
+<table border="0" width="888">
+    <tr>
+        <td width="296" align="left">        
+        </td>
+        <td width="296" align="center">
+            <a href="../../readme.md">Back to main</a>
+        </td>
+        <td width="296" align="right">
+            <a href="./02-usage-examples.md">Next: Usage & Examples ></a>
+        </td>
+    </tr>
+</table>
+
 ## Options
 |Name|ОExpected type/value|Description|
 |---|---|---|

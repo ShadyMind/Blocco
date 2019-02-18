@@ -1,5 +1,18 @@
 # API (Программный интерфейс)
 
+<table border="0" width="888">
+    <tr>
+        <td width="296" align="left">        
+        </td>
+        <td width="296" align="center">
+            <a href="./00-readme.md">Назад к основной странице</a>
+        </td>
+        <td width="296" align="right">
+            <a href="./02-usage-examples.md">След.: Использование и примеры ></a>
+        </td>
+    </tr>
+</table>
+
 ## Опции
 |Название|Ожидаемый тип / значения|Описание|
 |---|---|---|

@@ -1,5 +1,18 @@
 # Usage & Examples
 
+<table border="0" width="888">
+    <tr>
+        <td width="296" align="left">
+            <a href="./01-api.md">< Prev.: API</a>
+        </td>
+        <td width="296" align="center">
+            <a href="./00-readme.md">Back to main</a>
+        </td>
+        <td width="296" align="right">
+        </td>
+    </tr>
+</table>
+
 ### Examples
 File structure example:
 
