@@ -64,7 +64,7 @@ const settings = new Settings({
 ```
 
 ### Usage
-Usage with knex and async/await syntax construction
+Usage with [knex](https://github.com/tgriesser/knex) and `async/await` syntax construction
 ```javascript
 const Settings = require('Blocco');
 const Knex = require('kneex');
