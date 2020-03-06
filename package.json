@@ -23,17 +23,17 @@
     "node": "^6.14.0 || ^8.10.0 || >=9.10.0"
   },
   "dependencies": {
-    "lodash-core": "^4.17.11"
+    "lodash-core": "^4.17.15"
   },
   "devDependencies": {
-    "@types/lodash": "^4.14.120",
-    "@types/node": "^11.9.2",
-    "ava": "^1.2.1",
-    "eslint": "^5.14.0",
-    "js-yaml": "^3.12.1",
-    "rimraf": "^2.6.3",
-    "ts-node": "^8.0.2",
-    "typescript": "^3.3.3"
+    "@types/lodash": "^4.14.149",
+    "@types/node": "^13.7.7",
+    "ava": "^3.5.0",
+    "eslint": "^6.8.0",
+    "js-yaml": "^3.13.1",
+    "rimraf": "^3.0.2",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3"
   },
   "ava": {
     "files": [
